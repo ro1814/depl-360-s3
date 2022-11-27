@@ -1,0 +1,434 @@
+.firstEeDiv {
+    background-image: url(../../public/images/background-eagle-eye.svg);
+    background-repeat: no-repeat;
+    position: relative;
+    background-size: cover;
+}
+
+.eELogoDiv {
+    width: 100%;
+    margin-bottom: 4%;
+}
+
+.eElogo {
+    margin-top: 2%;
+    padding: 1%;
+    margin-left: 30%;
+    width: 40%;
+    background-color: rgba(70, 70, 70, 0.128);
+}
+
+.eETextFirstDiv {
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 2.5%;
+}
+
+.eETitle {
+    font-size: 26px;
+    text-align: center;
+    color: #004E77;
+}
+
+.eESubtitle {
+    margin-left: 3%;
+    margin-right: 3%;
+    font-size: 24px;
+    text-align: justify;
+    color: #00344F;
+}
+
+.threeDivQuotes {
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 3%;
+
+}
+
+.eEquote {
+    background-color: #CBEDFF;
+    margin-top: 3%;
+    margin-bottom: 1.5%;
+    margin-right: 5%;
+    margin-left: 5%;
+    padding: 3%;
+    align-content: center;
+
+}
+
+.quote {
+    font-size: 34px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.eETextSecondDiv {
+    margin-left: 13%;
+    margin-right: 13%;
+    margin-bottom: 3%;
+}
+
+.firstDivParagraph {
+    text-align: justify;
+    hyphens: auto;
+    font-weight: bold;
+    font-size: 22px;
+
+}
+
+.videoDiv {
+    align-content: center;
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 10%;
+}
+
+.eeVid {
+    width: 95%;
+}
+
+.secondEeDiv {
+    margin-left: 5%;
+    margin-right: 5%;
+    background-color: rgba(0, 0, 0, 0.050);
+    margin-bottom: 1%;
+    padding-bottom: 1%;
+}
+
+
+.title {
+    color: #004E77;
+    font-size: 50px;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    font-weight: bolder;
+    text-align: center;
+    padding-top: 1%;
+}
+
+.titleEdit {
+    display: inline-flex;
+    margin-left: 30%;
+    margin-bottom: 2%;
+}
+
+.rSize {
+    font-size: 36px;
+}
+
+.eEdataflow {
+    width: 95%;
+    margin-left: 2.5%;
+    margin-bottom: 2%;
+}
+
+.hEworksDiv {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.hEworkSubTitle {
+    text-align: center;
+    margin-bottom: 2%;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.hEworksUl {
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 1%;
+
+}
+
+.hEworksIl {
+    margin-bottom: 1%;
+
+}
+
+.fFrictDiv {
+    margin: 1%;
+}
+
+.keyFiguresDiv {
+    background-color: #CBEDFF;
+    padding-bottom: 4%;
+    padding-top: 2%;
+}
+
+.firstDataDiv {
+    display: flex;
+    flex-direction: row;
+    margin-right: 12%;
+    margin-top: 5%;
+    margin-bottom: 2%;
+    margin-left: 1%;
+}
+
+.littleDataCards {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10%;
+    margin-right: 10%;
+
+}
+
+.littleDataCard {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 15%;
+    width: 120%;
+}
+
+.aMDataCard {
+    display: flex;
+    flex-direction: column;
+    margin-right: 50%;
+}
+
+.dataCardTitle {
+    font-size: 32px;
+    font-weight: bold;
+    text-align: right;
+    width: 160%;
+
+}
+
+.dataCardP {
+    font-size: 16px;
+    font-weight: bolder;
+    text-align: right;
+    width: 160%;
+}
+
+.aMicon {
+    font-size: 40px;
+    margin-top: 10%;
+    margin-left: 5%;
+    color: #00344F;
+}
+
+.customCard {
+    width: 30%;
+    margin-right: 10%;
+    padding-top: 1%;
+    background-color: rgba(245, 245, 245, 0.862);
+}
+
+.customCardTitle {
+    margin-top: 2%;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.customCardP {
+    font-weight: bold;
+    text-align: justify;
+    font-size: 20px;
+    margin-left: 5%;
+    margin-right: 5%;
+
+}
+
+.contactEeDiv {
+    margin-top: 2%;
+    padding-top: 2%;
+    margin-left: 10%;
+    width: 80%;
+    text-align: center;
+    margin-bottom: 3%;
+}
+
+.contactBtnEe {
+    margin-top: 2%;
+    margin-bottom: 5%;
+    background-color: #004E77 !important;
+    padding: 1.5rem 5rem !important;
+    font-size: 1.25rem !important;
+    color: white !important;
+    font-weight: bold !important;
+
+}
+
+/* Media Queries */
+
+/* Mobile queries ( max 924 px) */
+@media (max-width: 924px) {
+    .eELogoDiv {
+        width: 100%;
+        margin-bottom: 4%;
+    }
+
+    .eElogo {
+        padding: 2%;
+        margin-top: 2%;
+        margin-left: 15%;
+        width: 70%;
+    }
+
+    .eETextFirstDiv {
+        margin-left: 2%;
+        margin-right: 2%;
+        margin-bottom: 2.5%;
+    }
+
+    .eETitle {
+        font-size: 20px;
+        text-align: center;
+        color: #004E77;
+    }
+
+    .eESubtitle {
+        margin-left: 3%;
+        margin-right: 3%;
+        font-size: 18px;
+        text-align: justify;
+        hyphens: auto;
+        color: #00344F;
+    }
+
+    .threeDivQuotes {
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 10%;
+        margin-bottom: 3%;
+    }
+
+    .eEquote {
+        background-color: #CBEDFF;
+        width: 60%;
+        margin-top: 3%;
+        margin-bottom: 1.5%;
+        margin-right: 5%;
+        margin-left: 20%;
+        padding: 3%;
+        align-content: center;
+    }
+
+    .quote {
+        font-size: 18px;
+        font-weight: bolder;
+        text-align: center;
+    }
+
+    .eETextSecondDiv {
+        margin-left: 3%;
+        margin-right: 3%;
+    }
+
+    .firstDivParagraph {
+        font-size: 18px;
+        text-align: justify;
+        hyphens: auto;
+    }
+
+    .secondEeDiv {
+        text-align: center;
+        margin-left: 1.5%;
+        margin-right: 1.5%;
+    }
+
+    .rSize {
+        font-size: 16px;
+    }
+
+    .title {
+        font-size: 22px;
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+
+    .eEdataflow {
+        width: 98%;
+        margin-left: 1%;
+        margin-right: 1%;
+    }
+
+    .hEworksDiv {
+        margin-left: 1%;
+        margin-right: 1%
+    }
+
+    .hEworkSubTitle {
+        text-align:center;
+        font-size: 18px;
+        font-weight: bold;
+        margin-bottom: 5%;
+    }
+
+    .hEworksUl {
+        text-align:start;
+        font-size: 16px;
+        margin-bottom: 5%;
+    }
+    .fFrictDiv{
+        margin-top: 3%;
+    }
+    .videoDiv {
+        margin-bottom: 5%;
+    }
+
+    .eeVid {
+        width: 100%;
+    }
+
+    .firstDataDiv {
+        flex-direction: column;
+        margin-right: 1%;
+        margin-left: 1%;
+    }
+
+    .littleDataCards {
+        flex-direction: row;
+        margin-left: 1%;
+        margin-bottom: 1%;
+    }
+
+    .littleDataCard {
+        margin-bottom: 3%;
+        width: 90%;
+    }
+
+    .aMDataCard {
+        display: flex;
+        flex-direction: column;
+        margin-right: 30%;
+    }
+
+    .customCard {
+        width: 100%;
+        margin-right: 10%;
+        padding-top: 1%;
+        margin-bottom: 2%;
+        background-color: rgba(245, 245, 245, 0.862);
+    }
+
+    .customCardTitle {
+        font-size: 18px;
+    }
+
+    .customCardP {
+        font-size: 16px;
+        hyphens: auto;
+    }
+
+    .aMicon {
+        font-size: 30px;
+        margin-left: 3%;
+
+    }
+
+    .contactBtnEe {
+        margin-top: 2%;
+        margin-bottom: 5%;
+        padding: 0.5rem 2rem !important;
+        font-size: 1.25rem !important;
+
+    }
+}

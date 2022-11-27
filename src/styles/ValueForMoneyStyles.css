@@ -1,0 +1,520 @@
+.firstDivAce {
+    background-image: url(../../public/images/background-eagle-eye.svg);
+    background-repeat: no-repeat;
+    position: relative;
+    background-size: cover;
+    margin-bottom: 5%;
+}
+
+.titleAce {
+    margin-bottom: 3%;
+}
+
+.firstPAce {
+    margin-right: 18%;
+    margin-left: 18%;
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 1%;
+    color: #004E77;
+    font-weight: bold;
+}
+
+.secondPAce {
+    padding-bottom: 3%;
+    margin-right: 18%;
+    margin-left: 18%;
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 1%;
+    color: #004E77;
+    font-weight: bold;
+}
+
+.cardAceOne {
+    padding-top: 2%;
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-bottom: 0.5%;
+    background-color: #CBEDFF;
+    margin-left: 10%;
+    margin-right: 1%;
+    margin-bottom: 12%;
+    position: relative;
+    width: 35%;
+}
+
+.cardAceTwo {
+    padding-top: 2%;
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-bottom: 0.5%;
+    background-color: #CBEDFF;
+    margin-left: 2%;
+    margin-right: 1%;
+    margin-bottom: 12%;
+    width: 35%;
+
+}
+
+.cardAceThree {
+    padding-top: 2%;
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-bottom: 0.5%;
+    background-color: #CBEDFF;
+    margin-left: 2%;
+    margin-right: 10%;
+    margin-bottom: 12%;
+    width: 35%;
+}
+
+.cardTitleAce {
+    text-align: center;
+    font-size: 34px;
+    font-weight: bolder;
+}
+
+.cardTitleAceM {
+    margin-top: 5%;
+    margin-bottom: 7%;
+}
+
+.acePlusBtn {
+    margin-left: 45%;
+    border-radius: 50%;
+    text-align: center;
+    width: 10%;
+
+}
+
+.acePlusAnker {
+    color: black;
+}
+
+.acePlusBtn2 {
+    margin-left: 45%;
+    margin-top: 0;
+    border-radius: 50%;
+    text-align: center;
+    width: 10%;
+}
+
+.acePlusBtn2 {
+    margin-top: 7%;
+}
+
+.acePlusIcon {
+    margin-top: 5%;
+    text-align: center;
+    font-size: 200%;
+}
+
+.secondAceDiv {
+    background-color: #f2f2f2;
+    padding-bottom: 1%;
+}
+
+.secondTitleAce {
+    padding-top: 3%;
+    margin-bottom: 2%;
+}
+
+.secondAceDivP {
+    margin-right: 5%;
+    margin-left: 5%;
+    font-weight: bolder;
+    font-size: 24px;
+    text-align: justify;
+}
+
+.aceFirstImgDiv {
+    margin-top: 2%;
+    width: 100%;
+}
+
+.aceFirstImg {
+    margin-left: 20%;
+    width: 60%;
+    margin-bottom: 2%;
+}
+
+.hIwSDiv {
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-bottom: 13%;
+}
+
+.hIwSDivTwo {
+    margin-top: 3%;
+    display: flex;
+    flex-direction: row;
+}
+
+.thirdAceP {
+    margin-right: 4%;
+    margin-left: 10%;
+    font-weight: bolder;
+    font-size: 24px;
+    text-align: justify;
+}
+
+.hIwSDivThree {
+    width: 100%;
+    background-color: #cceee6;
+    margin-right: 10%;
+    margin-left: 4%;
+    margin-top: 5%;
+    margin-bottom: 10%;
+}
+
+.titleAceSubDiv {
+    margin-top: 3%;
+    margin-left: 4%;
+    margin-right: 4%;
+    text-align: center;
+    font-size: 24px;
+    color: #05a781;
+}
+
+.aceKeyAspectsDiv {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20%;
+    margin-left: 10%;
+
+}
+
+.aceKeyAspectsSubDiv {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10%;
+}
+
+.performanceCard {
+    text-align: center;
+    margin-right: 15%;
+
+}
+
+.perfomanceIcon {
+    color: #00a0df;
+    font-size: 40px;
+    margin-bottom: 0;
+}
+
+.keyAspectsP {
+    font-weight: bolder;
+    font-size: 16px;
+    text-align: justify;
+}
+
+.esgCard {
+    text-align: center;
+    margin-right: 15%;
+}
+
+.esgIcon {
+    color: #7cca61;
+    font-size: 34px;
+    margin-bottom: 20%;
+}
+
+.esgP {
+    font-size: 16px;
+    font-weight: bolder;
+}
+
+.costCard {
+    margin-left: 5%;
+    text-align: center;
+    margin-right: 15%;
+}
+
+.costIcon {
+    color: #004E77;
+    font-size: 34px;
+    margin-bottom: 0;
+}
+
+.costP {
+    font-size: 16px;
+    font-weight: bolder;
+}
+
+.volatilityCard {
+    text-align: center;
+    margin-right: 15%;
+    margin-left: 4%;
+}
+
+.volatilityIcon {
+    color: #00ab7f;
+    font-size: 34px;
+    margin-bottom: 0;
+}
+
+.volatilityP {
+    font-size: 16px;
+    font-weight: bolder;
+}
+
+.mainKfDiv {
+    background-color: #CBEDFF;
+    margin-bottom: 2%;
+    padding-bottom: 2%;
+}
+
+.KfASLogosDivAce {
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-top: 2%;
+    padding-bottom: 1%;
+    padding-left: 3%;
+    margin-bottom: 2%;
+}
+
+.logosDivOneAce {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-right: 15%;
+    margin-left: 2%;
+}
+.logosDivTwoAce{
+    margin-left: 1%;
+    margin-right: 15%;
+}
+.logosDivThreeAce{
+    margin-left: 3%;
+    margin-right: 18%;
+}
+
+.aMIcon {
+    width: auto !important;
+    font-size: 70px;
+    margin-bottom: 5%;
+    color: #004E77;
+}
+
+.subtitleKfAS {
+    font-weight: bolder;
+    font-size: 48px;
+}
+
+.paraKfAce {
+    margin: 0;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.kFsDiv {
+    display: flex;
+    flex-direction: row;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 3%;
+}
+
+.targetDivOne {
+    background-color: white;
+    margin-right: 1%;
+    width: 100%;
+}
+
+.fPtitle {
+    color: #004E77;
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 2%;
+    margin-left: 3%;
+}
+
+.fpP {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: justify;
+    margin-left: 3%;
+    margin-right: 3%;
+    hyphens: auto;
+}
+
+.targetDivTwo {
+    background-color: white;
+    margin-left: 1%;
+    width: 100%;
+}
+
+.kFsImages {
+    display: flex;
+    flex-direction: row;
+}
+
+.firstImageAce {
+    margin-top: 2%;
+    margin-left: 20%;
+    margin-bottom: 2%;
+    width: 60%;
+}
+
+.secondImageAce {
+    margin-top: 2%;
+    margin-left: 2%;
+    width: 45%;
+}
+
+.fdpBtm {
+    margin-bottom: 8%;
+}
+
+
+/* Media Queries */
+
+/* Mobile queries ( max 924 px) */
+@media (max-width: 924px) {
+
+    .titleAce {
+        margin-top: 0%;
+        margin-bottom: 3%;
+        font-size: 22px;
+    }
+
+    .firstPAce {
+        margin-bottom: 2%;
+        margin-right: 2%;
+        margin-left: 2%;
+        font-size: 16px;
+        text-align: justify;
+        hyphens: auto;
+    }
+
+    .secondPAce {
+        margin-right: 2%;
+        margin-left: 2%;
+        font-size: 16px;
+        text-align: justify;
+        hyphens: auto;
+    }
+
+    .cardAceOne {
+        margin-left: 10%;
+        margin-bottom: 10%;
+        width: 80%;
+    }
+
+    .cardAceTwo {
+        margin-left: 10%;
+        margin-bottom: 10%;
+        width: 80%;
+    }
+    .cardAceThree {
+        margin-left: 10%;
+        margin-bottom: 10%;
+        width: 80%;;
+    }
+    .cardTitleAce {
+        text-align: center;
+        font-size: 28px;
+        font-weight: bolder;
+    }
+    .secondTitleAce {
+        font-size: 22px;
+    }
+    .secondAceDivP {
+        font-size: 16px;
+    }
+    .aceFirstImgDiv {
+        margin-top: 1%;
+        margin-left: 1%;
+        margin-right: 1%;
+    }
+    .aceFirstImg {
+        margin-left: 0%;
+        width: 100%;
+        margin-bottom: 2%;
+    }
+    .hIwSDiv {
+        margin-left: 1%;
+        margin-right: 1%;
+        margin-bottom: 3%;
+    }
+    .hIwSDivTwo {
+        margin-top: 3%;
+        display: flex;
+        flex-direction: column;
+    }
+    .thirdAceP {
+        hyphens: auto;
+        margin-right: 2%;
+        margin-left: 2%;
+        font-size: 16px;
+    }
+    .hIwSDivThree {
+        width: 90%;
+        margin-right: 1%;
+        margin-left: 5%;
+        margin-top: 2%;
+        margin-bottom: 5%;
+    }
+    .titleAceSubDiv {
+        margin-top: 2%;
+        margin-left: 2%;
+        margin-right: 2%;
+        text-align: center;
+        font-size: 22px;
+    }
+    .aceKeyAspectsDiv {
+        margin-top: 10%;
+        margin-left: 12%;
+    }
+    .KfASLogosDivAce {
+    flex-direction: row;
+    margin-left: 1%;
+    margin-right: 1%;
+    padding-top: 2%;
+    padding-bottom: 1%;
+    margin-bottom: 3%;
+    }
+    .logosDivOneAce {
+        margin-right: 1%;
+        margin-left: 1%;
+    }
+    .logosDivTwoAce{
+        margin-left: 2%;
+    }
+    .logosDivThreeAce{
+        margin-left: 3%;
+        margin-right: 4%;
+    }
+    .aMIcon {
+        font-size: 22px;
+        margin-bottom: 0%;
+    }
+    .subtitleKfAS {
+        font-weight: bolder;
+        font-size: 14px;
+    }
+    .paraKfAce {
+        font-size: 10px;
+    }
+    .kFsDiv {
+        display: flex;
+        flex-direction: column;
+        margin-left: 2%;
+        margin-right: 2%;
+        margin-bottom: 3%;
+    }
+    .fPtitle {
+        font-size: 18px;
+    }
+    .fpP {
+        font-size: 16px;
+    }
+    .targetDivTwo {
+        margin-left: 0%;
+        margin-top: 2%;
+    }
+}

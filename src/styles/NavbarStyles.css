@@ -1,0 +1,353 @@
+.navbar>.container {
+    width: 100% !important;
+    font-size: 18px;
+    padding-left: 5%;
+
+}
+
+.badge {
+    line-height: 2 !important;
+    background-color: #00689E !important;
+
+}
+
+.navLinkCustomedContact {
+    color: white !important;
+}
+
+.arrowRightStyle {
+    color: #63C9FF;
+}
+.dropdown-toggle::after {
+    content: none !important;
+}
+
+
+@media (min-width: 925px) {
+    .navbar-nav .dropdown-menu {
+
+        position: static;
+        margin-left: -12em;
+    }
+
+    .dropdown-menu.show {
+        display: flex !important;
+        flex-direction: row !important;
+    }
+
+    .dropdown-item {
+        display: block;
+        width: 100%;
+        padding: 0.25rem 3rem !important;
+        clear: both;
+        font-weight: 400;
+        color: #212529;
+        text-align: inherit;
+        text-decoration: none;
+        white-space: nowrap;
+        background-color: transparent;
+        border: 0;
+    }
+
+    .dataCard :hover {
+        background: #63C9FF !important;
+        border-radius: 25px;
+    }
+
+    .dropdown-item.active,
+    .dropdown-item:active {
+        color: #fff;
+        text-decoration: none;
+        /* background-color: #00689E !important; */
+        background-color: #0082C6 !important;
+        border-radius: 25px;
+    }
+
+    .dataCard {
+        justify-content: justify !important;
+    }
+
+    .productDescription {
+        font-size: medium;
+    }
+
+    /* Icons in the navBar */
+    .dbIcon {
+        /* color: #0082C6; */
+        color: #00689E;
+        font-size: 25px;
+        margin-right: 10px;
+    }
+
+    .vfmIcon {
+        color: #00689E;
+        margin-right: 10px;
+        font-size: 25px;
+    }
+
+    .blpIcon {
+        color: #00689E;
+        margin-right: 10px;
+        font-size: 25px;
+    }
+
+    .miIcon {
+        color: #009EAC;
+        margin-right: 10px;
+        font-size: 25px;
+    }
+
+    .eeIcon {
+        color: #00A498;
+        margin-right: 10px;
+        font-size: 25px;
+    }
+
+    .caIcon {
+        /* color: #0082C6; */
+        color: #00689E;
+        margin-right: 10px;
+        font-size: 25px;
+    }
+
+    .esrIcon {
+        color: #00A881;
+        margin-right: 10px;
+        font-size: 25px;
+    }
+
+    .canIcon {
+        /* color: #0082C6; */
+        color: #00689E;
+        margin-right: 10px;
+        font-size: 25px;
+    }
+
+    .seeAllLink {
+        text-decoration: underline !important;
+    }
+
+    .seeAllIcon {
+        color: #00689E;
+        margin-right: 10px;
+    }
+
+    .labelStyle {
+        font-weight: bold;
+        color: #004E77;
+    }
+
+    .seeAll {
+        text-align: end !important;
+    }
+
+    div .seeAll *:hover {
+        background: none;
+    }
+
+    .seeAll .dropdown-item.active,
+    .dropdown-item:active {
+        background: transparent !important;
+        color: #004E77 !important;
+    }
+
+    .dataCard .dropdown-item :hover {
+        background-color: transparent !important;
+    }
+
+}
+
+
+@media (max-width: 924px) {
+
+    /* Media queries to change background colors from mobile version navBar */
+    .dropdown-menu.show {
+        display: block !important;
+    }
+
+    .navbar {
+        background-color: #CBEDFF;
+        padding-bottom: 0rem !important;
+    }
+
+    .navbar>.container {
+        width: 100% !important;
+
+        font-size: x-large;
+        padding-left: 5%;
+
+    }
+
+    .dropdown-menu[data-bs-popper] {
+        left: 15px !important;
+        width: auto;
+    }
+
+    .navBarLogoLinkStyle {
+        background-color: transparent;
+        width: 40%;
+        margin-left: 15px;
+
+    }
+
+    .navbar-light .navbar-toggler {
+        color: transparent !important;
+        border-color: none !important;
+    }
+
+    .navbar-toggler {
+        margin-right: 15px;
+    }
+
+    .navbar-light .navbar-toggler {
+        border: none !important;
+    }
+
+    .bg-light {
+
+        background: #CBEDFF !important;
+    }
+
+    .navbar .containerCustomedStyle {
+        padding: 0;
+        background-color: #CBEDFF;
+    }
+
+    .navLinkHomeStyle {
+        display: none !important;
+    }
+
+    .navLinkProductsStyle {
+        background: #97DBFF;
+
+    }
+
+    .navLinkInsightsStyle {
+        background-color: #63C9FF;
+    }
+
+    .navLinkMeetStyle {
+        background-color: #0082C6;
+    }
+
+    .navLinkLoginStyle {
+        background-color: #00689E;
+    }
+
+    .navLinkCustomed {
+        font-weight: bold;
+        size: 22px;
+        color: white !important;
+    }
+
+    .navbar-light .navbar-nav .nav-link {
+        color: white !important;
+        padding-bottom: 20px;
+    }
+
+    .dropdown-menu {
+        border: transparent !important;
+        margin: -16px !important;
+    }
+
+    .dropdown-toggle::after {
+        content: none !important;
+    }
+
+    .dataCard {
+        display: inline-flex !important;
+        justify-content: center !important;
+        background-color: #63C9FF !important;
+        margin: 3% !important;
+        /* margin-left: 6%; */
+        width: 10% !important;
+        padding: 17% !important;
+        flex-direction: row !important;
+        border-radius: 5% !important;
+        /* text-align: center !important; */
+        box-sizing: content-box !important;
+    }
+
+    .dropdown-item {
+        padding: 0.25rem 2rem !important;
+        font-weight: bold !important;
+        display: inline !important;
+        flex-direction: row !important;
+        color: white !important;
+        width: auto !important;
+
+    }
+
+    .dbIcon {
+        display: none;
+    }
+
+    .vfmIcon {
+        display: none;
+    }
+
+    .blpIcon {
+        display: none;
+    }
+
+    .miIcon {
+        display: none;
+    }
+
+    .eeIcon {
+        display: none;
+    }
+
+    .caIcon {
+        display: none;
+    }
+
+    .esrIcon {
+        display: none;
+    }
+
+    .canIcon {
+        display: none;
+    }
+
+    .seeAll {
+
+        padding: 0.35em 0.65em;
+        display: block !important;
+        border-radius: 50rem !important;
+        background-color: #00689E !important;
+        width: 50%;
+        margin-left: 25%;
+    }
+
+    .labelStyleSeeAll {
+        margin: 0;
+        text-align: center;
+    }
+
+    .seeAllLink {
+        text-decoration: underline !important;
+        width: 100%;
+    }
+
+    .labelStyle {
+        font-size: 14px;
+    }
+
+    .productDescription {
+        font-size: xx-small;
+    }
+
+    .dropdown-item.active,
+    .dropdown-item:active {
+        background-color: transparent !important;
+    }
+
+    .badge {
+        display: block !important;
+        background-color: #00689E !important;
+
+    }
+
+
+}

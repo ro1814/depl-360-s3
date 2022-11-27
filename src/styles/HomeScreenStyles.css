@@ -1,0 +1,647 @@
+.homeDiv {
+    background-image: url(../../public/images/first-page-background.svg);
+    background-size: cover;
+    margin-bottom: 0;
+}
+
+.divTitle {
+    width: 10%;
+    /*full width*/
+    min-height: 90%;
+    text-align: center;
+    display: table;
+    margin-top: 2%;
+    margin-left: 15%;
+    margin-bottom: 15%;
+}
+
+.homeTitle {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+    color: #004E77;
+    text-align: justify;
+    font-size: 450%;
+}
+
+.aboutDiv {
+    background-color: rgba(0, 0, 0, 0.050);
+    display: flex;
+    flex-direction: column;
+    margin-top: -5%;
+    margin-bottom: 1%;
+    padding-bottom: 2%;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.aboutUsTitle {
+    font-size: 32px;
+    margin-bottom: 2%;
+    font-weight: bold;
+}
+
+.aboutUsParagraph {
+    margin-top: 3%;
+    font-size: 24px;
+    text-align: justify;
+}
+
+.whatWeDoDiv {
+
+    display: flex;
+    flex-direction: column;
+    margin-top: 9%;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 0;
+}
+
+.title {
+    color: #004E77;
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 2%;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.whatWeDoParagraph {
+    font-size: 24px;
+    text-align: justify;
+
+}
+
+.whatWeDoDivInfo {
+    display: flex;
+    flex-direction: row;
+    background-color: transparent;
+    width: 70%;
+    margin-top: 25px;
+    margin-left: 15%;
+    margin-right: 20%;
+    margin-bottom: 5%;
+}
+
+.whatDoweDoInfo {
+    background-color: #CBEDFF;
+    width: 30%;
+    margin-top: 10px;
+    margin-right: 25px;
+    margin-left: 19px;
+    padding: 20px;
+
+}
+
+.whatDoWeDoTitle {
+    font-size: 22px;
+    margin-bottom: 5%;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.whatDoWeDoInfoParagraph {
+    font-size: 21px;
+    text-align: justify;
+}
+
+.wDwHtitle {
+    color: #004E77;
+    font-size: 50px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.whoDoWeHelp {
+    display: flex;
+    flex-direction: column;
+    background-color: transparent;
+    margin-top: 2%;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 5%;
+    border-top: none;
+}
+
+.subTitle {
+    font-size: 24px;
+    margin-bottom: 1%;
+    font-weight: bold;
+    text-align: center;
+}
+
+.howDoWeHelpfoParagraph {
+    font-size: 22px;
+    text-align: justify;
+}
+
+.threeLogosDiv {
+    display: flex;
+    flex-direction: row;
+    background-color: #e5f5df;
+    width: 60%;
+    margin-top: 25px;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 5%;
+}
+
+.divLogo {
+    margin-top: 30px;
+    margin-left: 10%;
+    margin-right: 15%;
+    margin-bottom: 3%;
+
+}
+
+.fFLogo {
+    width: 12%;
+    margin-top: -1%;
+}
+
+.bILogo {
+    width: 12%;
+    margin-right: 15%;
+
+}
+
+.eELogo {
+    width: 15%;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.wDwHLinksDiv {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    width: 100%;
+}
+
+.labelStylewDwHLinksFirst {
+    text-decoration: underline;
+    color: #004E77;
+    cursor: pointer;
+}
+
+.labelStylewDwHLinksSecond {
+    text-decoration: underline;
+    color: #004E77;
+    cursor: pointer;
+}
+
+.labelStylewDwHLinksLast {
+    text-decoration: underline;
+    color: #004E77;
+    cursor: pointer;
+}
+
+.labelStylewDwHLinks {
+    text-align: center;
+    text-decoration: underline;
+    color: #004E77;
+    margin-left: 10%;
+    margin-right: 2%;
+    cursor: pointer;
+}
+
+.labelStylewDwHLinks {
+    text-align: center;
+    text-decoration: underline;
+    color: #004E77;
+    margin: 2%;
+    cursor: pointer;
+}
+
+.wDwHBox {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 3%;
+}
+
+.wDwHSubDiv {
+    background-color: #CBEDFF;
+    width: 30%;
+    margin-top: 10px;
+    margin-right: 25px;
+    margin-left: 15%;
+    padding: 20px;
+
+}
+
+.wDwHsubParagraphs {
+    font-size: 18px;
+    text-align: justify;
+}
+
+.assetManagerLinks {
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+}
+
+.wDwHSubDivDistributors {
+    background-color: #e5f5df;
+    width: 35%;
+    margin-top: 10px;
+    margin-right: 20px;
+    margin-left: 3%;
+    padding: 20px;
+}
+
+.distributorsLinkBox {
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+}
+
+.distributorsLinks {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    font-size: 20px;
+    margin-left: 9%;
+}
+
+.clientsDiv {
+    display: flex;
+    flex-direction: row;
+    background-color: transparent;
+    margin-top: 5%;
+    margin-left: 12%;
+    margin-right: 12%;
+    margin-bottom: 5%;
+}
+
+.southHallLogo {
+    width: 30%;
+    margin-right: 10%;
+    margin-left: 5%;
+
+}
+
+.inversisLogo {
+    width: 60%;
+    margin-left: 15%;
+    padding-right: 5%;
+
+}
+
+.oCsBox {
+    display: flex;
+    flex-direction: row;
+    width: 60%;
+    margin-left: 20%;
+    margin-bottom: 3%;
+}
+
+.ourClientSayParagraphs {
+    font-size: 18px;
+    text-align: justify;
+}
+
+.oCsSubDiv {
+    background-color: #CBEDFF;
+    width: 45%;
+    margin-top: 1%;
+    margin-bottom: 2%;
+    margin-right: 20px;
+    margin-left: 3%;
+
+}
+
+.oCsSubDivTwo {
+    background-color: #e5f5df;
+    width: 45%;
+    margin-top: 1%;
+    margin-bottom: 2%;
+    margin-right: 2%;
+    margin-left: 3%;
+}
+
+.getInTouchLink {
+    font-size: 14px;
+}
+
+.getInTouchButton {
+    text-align: center;
+    background-color: #004E77;
+}
+
+.seeAllProducts {
+    text-align: center;
+    background-color: #00A498;
+    cursor: pointer;
+
+}
+
+.labelStyleSeeAllProducts {
+    margin-top: 3%;
+    font-size: 14px;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* Media Queries */
+/* Mobile Queries max 924px */
+@media (max-width: 924px) {
+    .homeDiv {
+        background-image: url(../../public/images/first-page-background.svg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .divTitle {
+        display: flex;
+        flex-direction: row;
+        width: 70%;
+        margin-top: 2%;
+        margin-bottom: 2%;
+        margin-left: 15%;
+    }
+
+    .homeTitle {
+        text-align: center;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: bolder;
+        color: #004E77;
+        font-size: 22px;
+    }
+
+    .aboutDiv {
+        background-color: rgba(0, 0, 0, 0.050);
+        display: flex;
+        flex-direction: column;
+        margin-top: 3%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .aboutUsTitle {
+        font-size: 22px;
+        margin-bottom: 2%;
+        font-weight: bold;
+        text-align: center;
+    }
+
+    .aboutUsParagraph {
+        font-size: 14px;
+        text-align: justify;
+    }
+
+    .whatWeDoDiv {
+
+        display: flex;
+        flex-direction: column;
+        margin-top: 2%;
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-bottom: 1%;
+    }
+
+    .title {
+        color: #004E77;
+        font-size: 22px;
+        margin-top: 2%;
+        margin-bottom: 2%;
+        font-weight: bolder;
+        text-align: center;
+    }
+
+    .whatWeDoParagraph {
+        font-size: 14px;
+        text-align: justify;
+    }
+
+    .whatWeDoDivInfo {
+        display: flex;
+        flex-direction: column;
+        background-color: transparent;
+        margin-top: 1%;
+        margin-left: 5%;
+        margin-right: 2%;
+        margin-bottom: 1%;
+    }
+
+    .whatDoweDoInfo {
+        background-color: #CBEDFF;
+        width: 120%;
+        margin-top: 5%;
+        margin-bottom: 5%;
+        margin-right: 5%;
+        margin-left: 5%;
+    }
+
+    .whatDoWeDoTitle {
+        font-size: 16px;
+        margin-bottom: 2%;
+        font-weight: bolder;
+        text-align: center;
+    }
+
+    .whatDoWeDoInfoParagraph {
+        font-size: 14px;
+        text-align: justify;
+    }
+
+    .threeLogosDiv {
+        display: flex;
+        flex-direction: row;
+        background-color: #e5f5df;
+        width: 96%;
+        margin-top: 2%;
+        margin-left: 2%;
+        margin-right: 0;
+        margin-bottom: 5%;
+    }
+
+    .wDwHtitle {
+        color: #004E77;
+        font-size: 22px;
+        font-weight: bolder;
+        text-align: center;
+    }
+
+    .whoDoWeHelp {
+        display: flex;
+        flex-direction: column;
+        background-color: transparent;
+        margin-top: 2%;
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-bottom: 2%;
+        border-top: none;
+    }
+
+    .subTitle {
+        font-size: 18px;
+        margin-bottom: 1%;
+        font-weight: bold;
+        text-align: center;
+    }
+
+    .howDoWeHelpfoParagraph {
+        font-size: 16px;
+        text-align: justify;
+    }
+
+    .wDwHLinksDiv {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .labelStylewDwHLinksFirst {
+        text-align: center;
+        text-decoration: underline;
+        color: #004E77;
+        margin-left: 0%;
+        margin-right: 6%;
+        cursor: pointer;
+        text-align: center;
+    }
+
+    .labelStylewDwHLinksSecond {
+        text-align: center;
+        text-decoration: underline;
+        color: #004E77;
+        margin-left: 22%;
+        margin-right: 1%;
+        cursor: pointer;
+    }
+
+    .labelStylewDwHLinksLast {
+        text-align: center;
+        text-decoration: underline;
+        color: #004E77;
+        margin-left: 6%;
+        margin-right: 6%;
+        cursor: pointer;
+    }
+
+    .labelStylewDwHLinks {
+        text-align: center;
+        text-decoration: underline;
+        color: #004E77;
+        margin-left: 10%;
+        margin-right: 2%;
+        cursor: pointer;
+    }
+
+    .wDwHBox {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .wDwHSubDiv {
+        background-color: #CBEDFF;
+        width: 90%;
+        margin-top: 1%;
+        margin-right: 5%;
+        margin-left: 5%;
+        padding: 2%;
+
+    }
+
+    .wDwHsubParagraphs {
+        font-size: 16px;
+        text-align: justify;
+    }
+
+    .assetManagerLinks {
+        display: flex;
+        flex-direction: column;
+        font-size: 16px;
+    }
+
+    .wDwHSubDivDistributors {
+        background-color: #e5f5df;
+        width: 90%;
+        margin-top: 3%;
+        margin-right: 5%;
+        margin-left: 5%;
+        padding: 2%;
+    }
+
+    .distributorsLinkBox {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .distributorsLinks {
+        width: 100%;
+        flex-direction: row;
+        font-size: 16px;
+        margin: 2%;
+    }
+
+    .clientsDiv {
+        display: flex;
+        flex-direction: row;
+        background-color: transparent;
+        width: 95%;
+        margin-top: 5%;
+        margin-left: 2%;
+        margin-right: 2%;
+        margin-bottom: 5%;
+    }
+
+    .oCsBox {
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        margin-left: 5%;
+        margin-bottom: 5%;
+    }
+
+    .promStyles {
+        margin-top: 3%;
+        margin-bottom: 3%;
+        font-size: 16px;
+        text-align: justify;
+    }
+
+    .oCsSubDiv {
+        background-color: #CBEDFF;
+        width: 95%;
+        margin-top: 1%;
+        margin-bottom: 5%;
+        margin-right: 2%;
+        margin-left: 3%;
+
+    }
+
+    .oCsSubDivTwo {
+        background-color: #e5f5df;
+        width: 95%;
+        margin-top: 1%;
+        margin-bottom: 5%;
+        margin-right: 2%;
+        margin-left: 3%;
+    }
+
+    .getInTouchButton {
+        text-align: center;
+        background-color: #004E77;
+        cursor: pointer;
+    }
+
+    .seeAllProducts {
+        text-align: center;
+        background-color: #00A498;
+
+    }
+
+    .labelStyleSeeAllProducts {
+        font-size: 14px;
+        color: white;
+        text-decoration: none;
+
+    }
+
+    .toPoint {
+        cursor: pointer;
+    }
+}

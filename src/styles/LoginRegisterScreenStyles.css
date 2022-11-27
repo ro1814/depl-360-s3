@@ -1,0 +1,206 @@
+.lRDiv {
+    background-image: url(../../public/images/login-background.png);
+    background-color: #CBEDFF;
+    background-repeat: no-repeat;
+    background-size: 50% 105%;
+    margin-top: 0;
+    margin-bottom: 0%;
+    display: flex;
+    flex-direction: row;
+    flex-direction: row;
+    padding-bottom: 8.5%;
+}
+
+.firstLrDiv {
+    display: flex;
+    flex-direction: row;
+}
+
+.leftLrDiv {
+    width: 45%;
+}
+
+.fFimgDiv {
+    margin-top: 15%;
+    margin-bottom: 10%;
+    justify-content: center;
+}
+
+.fundFimg {
+    width: 100%;
+}
+
+.lRparagraphDiv {
+    margin-left: 5%;
+    justify-content: center;
+}
+
+.lRparagraph {
+    font-size: x-large;
+    font-weight: bolder;
+    color: #004E77;
+    text-align: center;
+    justify-content: center;
+}
+
+.lRbuttonsDiv {
+    display: flex;
+    flex-direction: row;
+    margin-top: 22%;
+    margin-bottom: 10%;
+    justify-content: center;
+    text-align: center;
+}
+
+.fTbutton {
+    margin-right: 5%;
+    padding-left: 8% !important;
+    padding-right: 8% !important;
+    background-color: #004E77 !important;
+    font-weight: bolder !important;
+    border-color: #004E77 !important;
+
+}
+
+.loginButton {
+    padding-left: 10% !important;
+    padding-right: 10% !important;
+    background-color: white !important;
+    color: black !important;
+    font-weight: bolder !important;
+    border-color: #004E77 !important;
+}
+.rightLrDiv{
+    width: 45%;
+    margin-left: 7.5%;
+    margin-top: 8%;
+}
+.loginImages{
+    width: 80%;
+}
+.modalLogoDiv{
+    margin-top: 2%;
+    margin-bottom: 2%;
+    text-align: center;
+}
+.fundFiLogo{
+width: 40%;
+}
+.modalH4{
+    text-align: center;
+    font-weight: bolder;
+    color: #004E77;
+    font-size: large;
+}
+.modalP{
+    font-size: large;
+    font-weight: bolder;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.divModalSelect{
+    display: flex;
+    flex-direction: row;
+}
+.countryInvestorDiv{
+    display: flex;
+    flex-direction: row;
+}
+.countrySelectorDiv{
+    margin-left: 5%;
+    width: 45%;
+}
+.profInvestorDiv{
+    align-self: center;
+    width: 35%;
+    margin-left: 12%;
+}
+.modalConditions{
+    align-self: center;
+    margin-bottom: 3%;
+    margin-left: 5%;
+    margin-right: 1%;
+    margin-top: 3%;
+    display: flex;
+}
+
+.modalBtns{
+    text-align: center;
+}
+
+.linkToDocs{
+    color: black
+}
+
+.linkToDocs:hover{
+    color: #004E77;
+}
+.linkToDocsCookies{
+    color: white;
+}
+.linkToDocsCookies:hover{
+    color: #cbeac0;
+}
+/* Media Queries */
+
+/* Mobile queries ( max 924 px) */
+@media (max-width: 924px) {
+    .lRDiv {
+        background-image: url(../../public/images/login-background.png);
+        background-color: #CBEDFF;
+        background-repeat: no-repeat;
+        background-size: 110% 105%;
+        margin-top: 0;
+        margin-bottom: 0%;
+        display: flex;
+        flex-direction: row;
+        flex-direction: row;
+        padding-bottom: 8.5%;
+    }
+    .leftLrDiv {
+        width: 100%;
+    }
+    .rightLrDiv{
+        display: none;
+    }
+    .modalBody{
+        background-color: white;
+    }
+    .fundFiLogo{
+        margin-top: 2%;
+        margin-bottom: 2%;
+        width: 50%;
+    }
+    .modalH4{
+        font-size: x-large;
+    }
+    .modalP{
+        margin-left: 3%;
+        margin-right: 3%;
+        text-align: justify;
+    }
+    .divModalSelect{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .countrySelector{
+        margin-left: 5%;
+        width: 190%;
+    }
+    .profInvestorDiv{
+        margin-bottom: 5%;
+        width: 80%;
+        margin-left: 0%;
+    }
+    .modalConditions{
+        align-self: center;
+        margin-bottom: 3%;
+        margin-left: 10%;
+        margin-right: 4%;
+        margin-top: 3%;
+        display: flex;
+    }
+    .modalBtns{
+        margin-bottom: 3%;
+    }
+}

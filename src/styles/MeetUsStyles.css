@@ -1,0 +1,16 @@
+.firstDivMeetUs {
+    background-image: url(../../public/images/first-page-background.svg);
+    background-size:auto;
+    background-repeat: no-repeat;
+    margin-bottom: 0;
+}
+@media (max-width: 924px){
+
+    div.modal-body{
+        padding: 2px;
+    }
+    div.modal-content{
+        background-color: #cbedff;
+    }
+
+}

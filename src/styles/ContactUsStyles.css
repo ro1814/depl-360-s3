@@ -1,0 +1,160 @@
+.firstContactUsDiv {
+    background-image: url(../../public/images/contact-us-background.png);
+    background-repeat: no-repeat;
+    background-size: 50% 100%;
+    margin-top: 0;
+    margin-bottom: 0%;
+    display: flex;
+    flex-direction: row;
+    padding-left: 3%;
+    padding-bottom: 8.5%;
+}
+
+.firstSubDivMu {
+    padding-top: 10%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.logoMUDiv {
+    margin-left: 3%;
+    width: 100%;
+    margin-top: 5%;
+    margin-bottom: 3%;
+}
+
+.logoMU {
+    display: block;
+    width: 70%;
+}
+
+.secondSubDivMu {
+    display: flex;
+    flex-direction: row;
+}
+
+.ukImageDiv {
+    align-items: center;
+    text-align: center;
+    margin-left: 5%;
+
+}
+
+.pAddressTitle {
+    color: #004E77;
+    font-weight: bolder;
+    margin-top: 15%;
+    margin-bottom: 5%;
+}
+
+.pAddress {
+    font-weight: bolder;
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: center;
+    font-size: large;
+}
+
+.spImageDiv {
+    text-align: center;
+}
+
+.spainMap {
+    width: 28%;
+    text-align: center;
+}
+
+.pAddressTitleSP {
+    color: #00a881;
+    font-weight: bolder;
+    margin-top: 15%;
+    margin-bottom: 5%;
+    text-align: center;
+}
+
+.formDivMu {
+    width: 45%;
+    padding-left: 7%;
+    padding-right: 7%;
+    margin-top: 3%;
+    padding-top: 10%;
+}
+
+.formTitle {
+    color: #004E77;
+    font-weight: bolder;
+    text-align: center;
+    margin-bottom: 10%;
+}
+.modalTextCentered{
+    text-align: center;
+    font-weight: bolder;
+    font-size: larger;
+    background-color: white;
+}
+.modalButton{
+    background-color: #004E77 !important;
+    font-weight: bolder !important;
+}
+
+/* Media Queries */
+
+/* Mobile queries ( max 924 px) */
+@media (max-width: 924px) {
+    .firstContactUsDiv {
+        background-size: 50% 100%;
+        flex-direction: column-reverse;
+        margin-top: -0.8%;
+        padding-left: 0;
+        padding-bottom: 8.5%;
+    }
+    .firstSubDivMu {
+        padding-top: 10%;
+        width: 100%;
+        text-align: -webkit-center;
+    }
+    .logoMUDiv {
+        width: 100%;
+        margin-top: 5%;
+        margin-left: 0;
+        margin-bottom: 3%;
+    }
+    .logoMU {
+        text-align: center;
+        display: block;
+        width: 70%;
+    }
+
+    .pAddressTitle {
+        font-size: small;
+    }
+    .pAddress {
+        text-align: center;
+        font-size: medium;
+        
+    }
+
+    .pAddressTitleSP {
+        margin-top: 13%;
+        margin-bottom: 5%;
+        text-align: center;
+    }
+
+    .spainMap {
+        width: 53%;
+        text-align: center;
+    }
+    
+    .formDivMu {
+        width: 100%;
+        padding-left: 7%;
+        padding-right: 7%;
+        margin-top: 3%;
+        padding-top: 10%;
+    }
+
+    .btmFormDiv{
+        text-align: center;
+    }
+}
