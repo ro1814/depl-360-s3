@@ -10,9 +10,9 @@ const ContactUsScreen = () => {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    let serviceId = process.env.REACT_APP_SERVICE_ID;
-    let templateId = process.env.REACT_APP_TEMPLATE_ID;
-    let publicKey = process.env.REACT_APP_PUBLIC_KEY;
+    let serviceId = "service_4c2tamr";
+    let templateId = "template_0s413cl";
+    let publicKey = "tazv-rJXaj_0JWcjk";
 
     emailjs.sendForm(serviceId, templateId, "#contact-form", publicKey).then(
       () => {
